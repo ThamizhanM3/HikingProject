@@ -8,7 +8,6 @@ import Footer from './Footer'
 const HomePage = () => {
     return (
         <div className='HomePage'>
-            {/* <div className="bg"></div> */}
             <Navbar />
             <Hero />
             <Content />

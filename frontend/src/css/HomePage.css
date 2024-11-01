@@ -1,24 +1,9 @@
 .HomePage {
-    background: #0B1D26;
-    background-image: url('../assets/Images/Hills.png'); 
     background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 13%, rgba(11, 29, 38, 1) 17%), url('../assets/Images/Hills.png');
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
-    /* .bg {
-        width: 100%;
-        position: fixed;
-        height: 2000px;
-        background-size: cover;
-        overflow: scroll;
-    } */
 }
-
-/* .HomePage ::after {
-    content: "";
-    position: absolute;
-    background-image: linear-gradient(#000 #fff);
-} */
